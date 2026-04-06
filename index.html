@@ -25,14 +25,31 @@
    <div style="width:400px; height:300px; border:1px solid black;">
     Main Image
    </div>
-<p>Visit <a href="https://github.com">GitHub</a> to learn more about coding.</p> 
     <button>view details</button>
   </main>
   <section>
     <h2>Search Apartments</h2>
-    
-   
-    <button><input type="text" placeholder="Location">Search</button>
+    <button>Search</button>
+    <div class="filters" id="filterBox">
+        <label>Location</label>
+        <select>
+            <option>Gaborone</option>
+            <option>Francistown</option>
+            <option>Maun</option>
+        </select>
+
+        <label>Price</label>
+        <select>
+            <option>P100 - P300</option>
+            <option>P300 - P600</option>
+            <option>P600+</option>
+        </select>
+    </div>
+<script>
+function showFilters() {
+    document.getElementById("filterBox").style.display = "block";
+}
+</script>
 </section>
   <footer> 
  <p>&copy; 2025 Your Name</p> 
