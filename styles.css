@@ -21,4 +21,11 @@ main img{
    display:block;
    margin:20px;   
 }
+
+second img{
+   max-width:90%;
+   height:auto;
+   display:block;
+   margin:15px;   
+}
     
