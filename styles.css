@@ -39,6 +39,9 @@ main image{
     margin-top:10px;
     margin-left:10px;
     display:flex;
+    flex:1px;
+    justify-content:flex-start;
+    align-items:stretch;
 }
 
 img 1{
