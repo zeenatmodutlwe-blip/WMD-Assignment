@@ -41,11 +41,12 @@ main image{
     display:flex;
     flex:1px;
     justify-content:flex-start;
-    align-items:stretch;
+    align-items:flex-start;
 }
 
 img 1{
-   margin-left:0px;
+   margin:0 auto;
+   float:left;
 }
 
 footer{
