@@ -18,10 +18,31 @@
         logo image
       </div>
       
-        <a href="index.html" style="margin-left:10px;">Home</a> |
-        <a href="apartments.html">Apartments</a> |
-        <a href="about.html">About</a> |
-        <a href="contact.html">Contact</a>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
+          <div class="container"> 
+            <a class="navbar-brand" href="index.html">My Website</a> 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> 
+              <span class="navbar-toggler-icon"></span>
+            </button> 
+            <div class="collapse navbar-collapse" id="navbarNav"> 
+              <ul class="navbar-nav">
+                
+  <li class="nav-item"> 
+    <a class="nav-link" href="index.html">Home</a> 
+    </li>
+ <li class="nav-item"> 
+    <a class="nav-link" href="index.html">Apartments</a> 
+    </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a> 
+        </li> 
+      <li class="nav-item"> 
+        <a class="nav-link" href="contact.html">Contact</a> 
+      </li> 
+       </ul> 
+            </div> 
+          </div> 
+      </nav> 
        
      <div class="filters" id="filterBox">
       <button style="margin-left:10px;">Search</button>
@@ -55,9 +76,22 @@ function showFilters() {
     </nav>
    </header> 
   
-  <main> 
+  <main class="container my-5"> 
+    <div class="row"> 
+    <div class="col-md-8"> > 
   <p>Modern, reasonable and luxurious apartments.</p> 
      <p>Apartment features: </p>
+
+<div> 
+<div class="col-md-4"> 
+<div class="card"> 
+<div class="card-body"> 
+ <h5 class="card-title">Did You Know?</h5> 
+ <p class="card-text">GitHub Pages is a free service to host static websites directly from your GitHub repository.</p> 
+</div> 
+</div>
+</div>
+</div>
     
    <div  style="width:683px; height:400px; display:block; border:1px solid black; justify-content:center; align-items:center;"> Main Image
      <button style="margin-left:520px;">Book Tour</button>
