@@ -17,13 +17,11 @@ main{
 }
 
 main image{
-   width:700px;
-   height:400px;
+   width:400px;
+   height:300px;
    display:block;
    margin-left:10px;  
    border:2px solid black;
-   justify-content:centre;
-   align-items:centre;
 }
 
 
@@ -34,23 +32,12 @@ main image{
 
 .box {
     border: 2px solid black;
-    width: 215px;
-    height:160px;
+    width: 200px;
+    height:150px;
     text-align: center;
-    margin:0 auto;
     margin-top:10px;
     margin-left:10px;
     display:flex;
-    flex:1px;
-    justify-content:flex-start;
-    align-items:flex-start;
-}
-
-img 1{
-   margin:0 auto;
-   float:left;
-   display:block;
-   width:215px;
 }
 
 footer{
@@ -60,7 +47,7 @@ position:fixed;
 bottom:0;
 
 }
-}
+
 
 
 
