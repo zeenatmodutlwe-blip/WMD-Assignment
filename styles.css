@@ -1,36 +1,26 @@
 body{
    background-color:lightgery;
-   margin-left:20px;
+   
 }
 header{
-   width:300px; 
-   height:200px; 
    border:1px solid black;
-   margin-left:100px;
    padding:0;
    background-color:powderblue;
 }
 
 main{
-   padding:20px;
-   max-width:800px;
+   padding:0;
    margin:0 auto;
 }
 
 main image{
-   max-width:100%;
-   height:auto;
+   width:683px;
+   height:400px;
    display:block;
-   margin-left:20px;   
+   margin-left:10px;  
+   border:1px solid black;
 }
 
-other img{
-   max-width:90%;
-   height:auto;
-   display:block;
-   margin-left:20px;  
-   margin-top:10px;
-}
 
 .container {
     display: flex;           
@@ -38,7 +28,7 @@ other img{
 
 .box {
     border: 1px solid black;
-    padding: 20px;
+    padding: 10px;
     width: 200px;
     height:180px;
     text-align: center;
