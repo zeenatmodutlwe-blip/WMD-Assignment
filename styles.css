@@ -4,10 +4,11 @@ body{
 }
 
 header{
-   border:2px solid black;
    padding:1px;
    background-color:powderblue;
    margin-left:0px;
+   max-width:100%;
+   text-align:centre;
 }
 
 main{
@@ -30,8 +31,7 @@ main image{
 }
 
 .box {
-    border: 1px solid black;
-    padding: 10px;
+    border: 2px solid black;
     width: 215px;
     height:180px;
     text-align: center;
