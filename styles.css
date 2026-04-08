@@ -21,6 +21,7 @@ main image{
    display:block;
    margin-left:10px;  
    border:1px solid black;
+   border-radius:10px;
 }
 
 
@@ -38,10 +39,17 @@ main image{
     margin-top:10px;
     margin-left:10px;
     display:flex;
+    border-radius:10px;
 }
 
 footer{
-   background-color:white;
+background-color:white;
+text-align:center;
+padding:10px;
+position:fixed;
+bottom:0;
+width:100%;
+}
 }
 
 
