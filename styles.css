@@ -22,6 +22,8 @@ main image{
    display:block;
    margin-left:10px;  
    border:2px solid black;
+   justify-content:centre;
+   align-items:centre;
 }
 
 
