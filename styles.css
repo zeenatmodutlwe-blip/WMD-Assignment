@@ -21,7 +21,6 @@ main image{
    display:block;
    margin-left:10px;  
    border:1px solid black;
-   border-radius:10px;
 }
 
 
@@ -33,13 +32,12 @@ main image{
 .box {
     border: 1px solid black;
     padding: 10px;
-    width: 200px;
+    width: 210px;
     height:180px;
     text-align: center;
     margin-top:10px;
     margin-left:10px;
     display:flex;
-    border-radius:10px;
 }
 
 footer{
