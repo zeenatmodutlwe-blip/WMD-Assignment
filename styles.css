@@ -12,6 +12,7 @@ header{
 main{
    padding:0;
    margin:0 auto;
+   display:flex;
 }
 
 main image{
