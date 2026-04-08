@@ -7,7 +7,7 @@ header{
    border:1px solid black;
    padding:1px;
    background-color:powderblue;
-   margin-left:5px;
+   margin-left:2px;
 }
 
 main{
@@ -25,7 +25,7 @@ main image{
 
 
 .container {
-    display: flex;
+   display: flex;
    margin-left:10px;
 }
 
