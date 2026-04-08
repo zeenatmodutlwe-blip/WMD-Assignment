@@ -49,6 +49,8 @@ main image{
 img 1{
    margin:0 auto;
    float:left;
+   display:block;
+   width:215px;
 }
 
 footer{
