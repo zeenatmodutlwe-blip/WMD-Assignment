@@ -77,7 +77,10 @@ main a[href^="mailto:"]{
 .hero {
   position: relative;
   width: 100%;
-  height: 600px;
+  
+  margin-top: 10px;       /* 👈 creates the 10px gap */
+    height: 50vh;           /* 👈 half of screen height */
+    
 }
 
 .hero img {
