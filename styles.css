@@ -74,20 +74,16 @@ main a[href^="mailto:"]{
   color:black;
   font-weight:bold;
 }
-.hero {
-  position: relative;
-  width: 100%;
-  
-  margin-top: 10px;       /* 👈 creates the 10px gap */
-    height: 50vh;           /* 👈 half of screen height */
-    
-}
 
+.hero {
+  position: relative; /* important */
+  width: 100%;
+  height: 600px;
+}
 .hero img {
   width: 100%;
   height: 100%;
  object-fit: cover;
-  height:600px;
 }
 
 
