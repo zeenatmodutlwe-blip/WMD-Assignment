@@ -87,31 +87,7 @@ main a[href^="mailto:"]{
   height:600px;
 }
 
-.search-box {
-  position: absolute;
-  top:60%;
-  left:60%;
-  transform: translate(-60%, -60%);
 
-  background: rgba(0, 0, 0, 0.6);
-  padding: 15px;
-  border-radius: 10px;
-}
-
-.search-box input {
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-}
-
-.search-box button {
-  padding: 10px 15px;
-  border: none;
-  background: orange;
-  color: white;
-  border-radius: 5px;
-  cursor: pointer;
-}
 
 .image-grid {
   display: grid;
@@ -163,5 +139,43 @@ main a[href^="mailto:"]{
   .big {
     grid-column: span 2;
   }
+  
+}
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Search bar styling */
+.search-bar {
+    position: absolute;
+    bottom: 0;              /* Stick to bottom of image */
+    left: 0;
+    width: 100%;            /* Full width */
+    background: rgba(0, 0, 0, 0.6); /* Optional dark overlay */
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Input and button */
+.search-bar input {
+    padding: 10px;
+    width: 60%;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
 }
 
