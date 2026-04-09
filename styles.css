@@ -180,8 +180,11 @@ main a[href^="mailto:"]{
 
 .footer-container {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap; /* makes it responsive */
+    justify-content: space-around; /* spreads sections */
+    align-items: flex-start;
+    text-align: center;
+}
+
 }
 
 .footer-section {
