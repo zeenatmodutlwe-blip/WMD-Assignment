@@ -164,7 +164,6 @@ main a[href^="mailto:"]{
     display: flex;
     justify-content: center;
     gap: 10px;
-    background-color: orange;
 }
 
 
