@@ -236,3 +236,31 @@ input[type="checkbox"]:checked ~ .details {
 
 
 
+/* Hide checkbox */
+input {
+    display: none;
+}
+
+/* Button styling */
+.btn {
+    display: inline-block;
+    padding: 10px;
+    background: orange;
+    color: white;
+    cursor: pointer;
+}
+
+/* Hidden details */
+.details {
+    display: none;
+    padding: 10px;
+    background: #f4f4f4;
+}
+
+/* SHOW details when clicked */
+input:checked ~ .details {
+    display: block;
+}
+
+
+
