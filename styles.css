@@ -79,6 +79,7 @@ main image{
     margin-left: 10px;
     display: flex;
     object-fit:cover;
+   position:fixed;
 }
 
 footer{
