@@ -87,6 +87,8 @@ main a[href^="mailto:"]{
 
 
 
+
+
 .search button {
   padding: 10px 15px;
   border: none;
@@ -95,8 +97,12 @@ main a[href^="mailto:"]{
   border-radius: 5px;
   cursor: pointer;
   position:fixed;
-  
+  top:50%;
+   left:50%;
+   transform: translate(-50%, -50%);
+background: rgba(0, 0, 0, 0.6);
 }
+
 .image-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
