@@ -153,7 +153,7 @@ main a[href^="mailto:"]{
 }
 
 /* Search bar styling */
-.search-bar {
+.search-box {
     position: absolute;
     bottom: 0;              /* Stick to bottom of image */
     left: 0;
@@ -167,12 +167,12 @@ main a[href^="mailto:"]{
 }
 
 /* Input and button */
-.search-bar input {
+.search-box input {
     padding: 10px;
     width: 60%;
 }
 
-.search-bar button {
+.search-box button {
     padding: 10px 20px;
     background-color: orange;
     border: none;
