@@ -114,8 +114,7 @@ main a[href^="mailto:"]{
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
   margin-left:10px;
-  width:330px;
-  height:200px;
+  
 }
 .collage {
   display: grid;
