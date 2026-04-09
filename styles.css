@@ -48,6 +48,9 @@ main image{
   background: rgba(0, 0, 0, 0.6);
   padding: 15px;
   border-radius: 10px;
+
+   width:50px;
+   height:30px;
 }
 
 .search-box input {
