@@ -151,4 +151,13 @@ main a[href^="mailto:"]{
   padding: 10px;
   border-radius: 10px;
 }
+@media (max-width: 768px) {
+  .collage {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .big {
+    grid-column: span 2;
+  }
+}
 
