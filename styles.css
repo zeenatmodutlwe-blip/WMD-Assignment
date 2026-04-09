@@ -46,6 +46,7 @@ main img {
   display:flex;
   margin:20px 0;
   width:600px;
+  position:absolute;
 }
 footer {
 background-color:#333;
