@@ -99,17 +99,29 @@ main a[href^="mailto:"]{
   
 }
 
-.collage {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 5px;
+.featured {
+    display: flex;
+    gap: 10px;
 }
 
-.collage img {
-    width: 100%;
-    height: 100%;
+.main-img {
+    width: 70%;
+    height: 300px;
     object-fit: cover;
 }
+
+.small-images {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.small-images img {
+    height: 95px;
+    object-fit: cover;
+}
+
 }
 .image-container {
     position: relative;
