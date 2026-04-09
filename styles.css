@@ -85,7 +85,11 @@ main a[href^="mailto:"]{
   height:600px;
 }
 
-
+.search-box {
+    width: 250px;
+    margin: 50px auto;
+    position: relative;
+}
 
 
 
