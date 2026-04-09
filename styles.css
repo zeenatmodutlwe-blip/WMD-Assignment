@@ -136,4 +136,19 @@ main a[href^="mailto:"]{
   grid-column: span 2;
   grid-row: span 2;
 }
+.more {
+  position: relative;
+}
+
+.more span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  background: rgba(0,0,0,0.6);
+  padding: 10px;
+  border-radius: 10px;
+}
 
