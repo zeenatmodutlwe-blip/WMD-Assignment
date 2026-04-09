@@ -9,7 +9,7 @@ body {
 
 }
 header {
-  background-color:dark navyblue;
+  background-color:powderblue;
   color:white;
   padding:10px
   display:flex;
@@ -46,8 +46,6 @@ main img {
   height:auto;
   display:block;
   margin:20px 0;
-  margin-left:10px;
-  margin-right:10px;
 }
 footer {
 background-color:#333;
