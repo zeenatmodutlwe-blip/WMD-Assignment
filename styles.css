@@ -152,30 +152,26 @@ main a[href^="mailto:"]{
     display: block;
 }
 
-/* Search bar styling */
+
 .search-box {
     position: absolute;
-    bottom: 0;              /* Stick to bottom of image */
+    bottom: 0;             
     left: 0;
-    width: 100%;            /* Full width */
-    background: rgba(0, 0, 0, 0.6); /* Optional dark overlay */
+    width: 100%;            
+    background: rgba(0, 0, 0, 0.6); 
     padding: 15px;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     gap: 10px;
+    background-color: orange;
 }
 
-/* Input and button */
+
 .search-box input {
     padding: 10px;
     width: 60%;
 }
 
-.search-box button {
-    padding: 10px 20px;
-    background-color: orange;
-    border: none;
-    cursor: pointer;
-}
+
 
