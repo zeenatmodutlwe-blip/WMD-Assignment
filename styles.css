@@ -94,6 +94,8 @@ main a[href^="mailto:"]{
   color: white;
   border-radius: 5px;
   cursor: pointer;
+  position:fixed;
+  
 }
 .image-grid {
   display: grid;
