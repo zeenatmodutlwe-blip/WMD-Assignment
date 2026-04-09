@@ -86,25 +86,29 @@ main a[href^="mailto:"]{
 }
 
 .search-box {
-    width: 250px;
-    margin: 50px auto;
-    position: relative;
+  position: absolute;
+  top:50%;
+   left:50%;
+   transform: translate(-50%, -50%);
+
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  border-radius: 10px;
 }
 
+.search-box input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
 
-
-.search button {
+.search-box button {
   padding: 10px 15px;
   border: none;
   background: orange;
   color: white;
   border-radius: 5px;
   cursor: pointer;
-  position:fixed;
-  top:50%;
-   left:50%;
-   transform: translate(-50%, -50%);
-background: rgba(0, 0, 0, 0.6);
 }
 
 .image-grid {
