@@ -172,5 +172,38 @@ main a[href^="mailto:"]{
     width: 60%;
 }
 
+.footer {
+    background-color: #222;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* makes it responsive */
+}
+
+.footer-section {
+    width: 30%;
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+    color: orange;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
 
 
