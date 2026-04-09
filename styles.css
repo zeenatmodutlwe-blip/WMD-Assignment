@@ -85,24 +85,9 @@ main a[href^="mailto:"]{
   height:600px;
 }
 
-.search-box {
-  position: absolute;
-  top:50%;
-   left:50%;
-   transform: translate(-50%, -50%);
 
-  background: rgba(0, 0, 0, 0.6);
-  padding: 15px;
-  border-radius: 10px;
-}
 
-.search-box input {
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-}
-
-.search-box button {
+.search button {
   padding: 10px 15px;
   border: none;
   background: orange;
