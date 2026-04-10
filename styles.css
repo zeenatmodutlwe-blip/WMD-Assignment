@@ -110,6 +110,18 @@ main a[href^="mailto:"]{
   
 }
 
+.image-row {
+    display: flex;
+    gap: 10px;              /* space between images */
+    padding: 20px;
+}
+
+.image-row img {
+    width: 33.33%;          /* each takes 1/3 of row */
+    height: 200px;
+    object-fit: cover;      /* keeps images neat */
+}
+
 .image-box{
    width:250px;
    height:100px;
