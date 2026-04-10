@@ -15,7 +15,7 @@ header {
     height: 60vh; /* adjust size */
     position: relative;
   color:white;
-  padding:10px
+  padding:10px;
   display:block;
   justify-content: space-between;
   align-items: center;
@@ -133,9 +133,9 @@ main a[href^="mailto:"]{
 }
 
 .image-grid {
-  display: flex;
+  display: grid;
   grid-template-columns: repeat(3, 1fr); 
-  margin-left:10px;
+  gap:10px;
   
 }
 .image-container {
@@ -176,7 +176,7 @@ html, body {
 
 .page-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     min-height: 100vh;
 }
 
