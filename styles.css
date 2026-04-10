@@ -7,13 +7,29 @@ body {
  }
 
 header {
-  background-color:powderblue;
+   background-image: url("images/exterior1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 60vh; /* adjust size */
+    position: relative;
   color:white;
   padding:10px
   display:block;
   justify-content: space-between;
   align-items: center;
   }
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-nav li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 header h1 {
   margin:0;
