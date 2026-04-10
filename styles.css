@@ -69,6 +69,7 @@ main img {
   width:500px;
   position:relative;
    object-fit:cover;
+   flex-direction: column;
 }
 footer {
 background-color:#333;
