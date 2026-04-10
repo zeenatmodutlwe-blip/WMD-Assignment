@@ -159,7 +159,7 @@ main a[href^="mailto:"]{
     display: block;
    margin:0;
   object-fit:cover;
-  height:350px;
+  height:400px;
 }
 .image-row {
     display: flex;
