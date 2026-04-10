@@ -23,13 +23,14 @@ header {
     list-style: none;
     display: flex;
     gap: 20px;
+   background-color:darkblue;
 }
 
 .navbar-nav li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-   background-color:darkblue;
+   
 }
 
 header h1 {
