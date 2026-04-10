@@ -110,7 +110,10 @@ main a[href^="mailto:"]{
   
 }
 
-
+.image-box{
+   width:100px;
+   height:50px;
+}
 
 .image-container {
     position: relative;
@@ -118,9 +121,9 @@ main a[href^="mailto:"]{
 }
 
 .image-container img {
-    width: 100px;
-    height: 50px;
-    display: block;
+    width: 100%;
+    height: auto;
+    display: flex;
 }
 
 
