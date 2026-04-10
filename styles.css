@@ -127,6 +127,34 @@ main a[href^="mailto:"]{
    background-color:white;
 }
 
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  margin-left:10px;
+  
+}
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    overflow: visible;
+    display: flex;
+}
+.image-row {
+    display: flex;
+    gap: 10px;
+}
+
+.image-row img {
+    width: 30%;
+    height: auto;          /* shows full image */
+    object-fit: contain;   /* no cropping */
+}
+
+
 .footer {
     background-color: #222;
     color: white;
