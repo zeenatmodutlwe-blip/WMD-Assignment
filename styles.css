@@ -63,7 +63,7 @@ nav a:hover {
 }
 
 main {
-  padding:20px;
+  padding:5px 0;
   width:100%;
   margin:0 auto;
 }
@@ -145,6 +145,7 @@ main a[href^="mailto:"]{
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
   gap:10px;
+  width:100%;
   
 }
 .image-container {
@@ -155,8 +156,10 @@ main a[href^="mailto:"]{
 .image-container img {
     width: 100%;
     overflow: visible;
-    display: flex;
-   margin-bottom:100px;
+    display: block;
+   margin:0;
+  object-fit:cover;
+  height:350px;
 }
 .image-row {
     display: flex;
