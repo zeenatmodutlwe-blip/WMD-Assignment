@@ -143,6 +143,9 @@ main a[href^="mailto:"]{
     padding: 10px;
     width: 60%;
 }
+.search-box button{
+   background-color:white;
+}
 
 .footer {
     background-color: #222;
