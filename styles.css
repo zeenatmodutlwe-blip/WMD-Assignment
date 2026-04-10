@@ -20,7 +20,7 @@ header {
   justify-content: space-between;
   align-items: center;
    width:100px;
-   flex-direction: column;
+   flex-direction: row;
   }
 
 .navbar-nav {
