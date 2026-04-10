@@ -150,7 +150,7 @@ main a[href^="mailto:"]{
 .footer {
     background-color: #222;
     color: white;
-    padding: 40px 20px;
+    padding: 10px 5px;
 }
 
 
@@ -174,7 +174,7 @@ main a[href^="mailto:"]{
 }
 
 .footer-section p {
-    margin: 5px 0;
+    margin: 2px 0;
 }
 
 .footer-bottom {
