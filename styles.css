@@ -130,7 +130,7 @@ main a[href^="mailto:"]{
 .footer {
     background-color: #222;
     color: white;
-    padding: 10px 5px;
+    padding: 5px 0px;
 }
 
 
@@ -153,14 +153,9 @@ main a[href^="mailto:"]{
     color: orange;
 }
 
-.footer-section p {
-    margin: 2px 0;
-}
-
 .footer-bottom {
     text-align: center;
     margin-top: 0px;
-    
 }
 
 .apartment {
