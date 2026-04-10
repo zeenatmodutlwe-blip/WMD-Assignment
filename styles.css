@@ -240,7 +240,7 @@ input[type="checkbox"]:checked ~ .details {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); 
-    color: orange;
+    color: white;
     text-align: left;
 }
 
