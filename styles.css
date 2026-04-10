@@ -62,6 +62,7 @@ main img {
   margin:20px 0;
   width:500px;
   position:relative;
+   object-fit:cover;
 }
 footer {
 background-color:#333;
