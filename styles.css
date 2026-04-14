@@ -14,7 +14,7 @@ body {
    flex-direction:column;
  }
 
-header {
+header:home {
    background-image: url("images/exterior1.jpg");
     background-size: cover;
     background-position: center;
@@ -34,6 +34,9 @@ header {
     display: flex;
     gap: 20px;
    background-color:black;
+}
+.navbar-nav:hover{
+  color:orange;
 }
 
 .navbar-nav li a {
