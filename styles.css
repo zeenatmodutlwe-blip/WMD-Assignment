@@ -324,12 +324,17 @@ input:checked ~ .details {
     display: block;
 }
 
-.input-box {
-    width: 300px;
-    padding: 10px;
-    border: 2px solid #ccc;
-    border-radius: 8px;
-   background-color:white;
+.input-box[type=text] {
+    
+  
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensures padding doesn't break layout */
+}
+
 }
    
    
