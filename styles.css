@@ -33,7 +33,7 @@ header {
     list-style: none;
     display: flex;
     gap: 20px;
-   background-color:black;
+   background-color:lightgrey;
   color:orange;
 }
 .navbar-nav:hover{
