@@ -15,7 +15,7 @@ body {
  }
 
 header {
-   background-image: url("images/exterior1.jpg");
+   
     background-size: cover;
     background-position: center;
     height: 60vh; 
@@ -28,6 +28,10 @@ header {
  max-width: 100vw 
    
   }
+
+.header1{
+  background-image: url("images/exterior1.jpg"); 
+}
 
 .navbar-nav {
     list-style: none;
