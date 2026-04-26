@@ -345,7 +345,7 @@ input:checked ~ .details {
             border-radius: 5px;
         }
 
-        button {
+        .button {
             width: 100%;
             padding: 10px;
             background-color: black;
