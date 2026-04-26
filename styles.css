@@ -147,6 +147,8 @@ main a[href^="mailto:"]{
    background-color:white;
 }
 
+
+
 .image-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
