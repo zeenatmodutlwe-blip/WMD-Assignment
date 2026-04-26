@@ -238,46 +238,36 @@ html, body {
     object-fit: cover;
 }
 
-/* Hide checkbox */
-input[type="checkbox"] {
-    display: none;
-}
 
-/* Button styling */
-.view-btn {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 8px 15px;
-    background: orange;
-    cursor: pointer;
-    color: white;
-}
+ .gallery {
+      text-align: center;
+    }
 
-/* Hidden details */
-.details {
-    display: none;
-    margin-top: 10px;
-}
+    .main-image {
+      width: 300px;
+      border-radius: 10px;
+    }
 
-/* Show when clicked */
-input[type="checkbox"]:checked ~ .details {
-    display: block;
-}
+    .more-images {
+      display: none;
+      margin-top: 20px;
+    }
 
-/* Extra images */
-.more-images {
-    display: flex;
-    gap: 5px;
-}
+    .more-images img {
+      width: 200px;
+      margin: 10px;
+      border-radius: 10px;
+    }
 
-.more-images img {
-    width: 30%;
-    height: 80px;
-    object-fit: cover;
-    img:url("images/whitebath.jpg");
-}
-
-
+    button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: black;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    
 
 
 .hero-text {
@@ -369,6 +359,7 @@ input:checked ~ .details {
 
         button:hover {
             background-color: #333;
+        }
      
 
  .text {
