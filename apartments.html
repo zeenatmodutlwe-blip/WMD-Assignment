@@ -65,12 +65,15 @@
     </div>
 </div>
 
-<script>
 function showImages() {
-    document.getElementById("moreImages").style.display = "block";
-}
-</script>
+    let images = document.getElementById("moreImages");
 
+    if(images.style.display === "block"){
+        images.style.display = "none";
+    } else {
+        images.style.display = "block";
+    }
+}
 
       
 </main>
