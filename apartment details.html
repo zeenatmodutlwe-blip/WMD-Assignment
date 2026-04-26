@@ -67,6 +67,38 @@
          </div>
       </div>
     </div>
+
+
+
+
+<div class="apartment-box">
+    <img src="images/apartment1.jpg" alt="Apartment">
+
+    <button class="view-btn" onclick="showDetails()">
+        View Apartment
+    </button>
+
+    <div class="details" id="details">
+        <p><strong>Price:</strong> BWP 8,500 / month</p>
+        <p><strong>Location:</strong> Gaborone, Block 10</p>
+        <p><strong>Size:</strong> 120 m²</p>
+    </div>
+</div>
+
+<script>
+function showDetails() {
+    let details = document.getElementById("details");
+
+    if(details.style.display === "block"){
+        details.style.display = "none";
+    } else {
+        details.style.display = "block";
+    }
+}
+</script>
+
+
+      
   
 </main>
           
