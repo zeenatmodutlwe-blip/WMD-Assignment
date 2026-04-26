@@ -398,14 +398,31 @@ input:checked ~ .details {
         }
      
 
- .text {
-      width: 50%;
-      justify-content:space-between;
-    display: flex;
-      align-items: center;
-    }
 
-   
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* left side text */
+.text {
+    width: 50%;
+}
+
+/* right side image */
+.image {
+    width: 45%;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
    
 
 
