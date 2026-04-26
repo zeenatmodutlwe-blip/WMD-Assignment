@@ -381,6 +381,7 @@ input:checked ~ .details {
             margin-bottom: 15px;
             border: 1px solid #999;
             border-radius: 5px;
+            color:black;
         }
 
         .button {
