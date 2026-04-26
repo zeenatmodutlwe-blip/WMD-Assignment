@@ -49,47 +49,17 @@
       <p>These provides a variety of images of the apartment that you can choose from at an affodable price.</p>
       
    
+  <label> <img src="images/exterior1"  width="600"  height="400"> </label>
+    
+
+        <select>
+            <option><img src="images/exterior1"  width="600"  height="400"></option>
+            <option><img src="images/exterior1"  width="600"  height="400"></option>
+            <option><img src="images/exterior1"  width="600"  height="400"></option>
+        </select>
 
 
 
-
-<!-- Apartment 1 -->
-<div class="apartment">
-    <img src="images/exterior1.jpg" class="main-image">
-    <button onclick="showGallery('gallery1')">View Apartment</button>
-</div>
-
-<!-- Apartment 2 -->
-<div class="apartment">
-    <img src="images/bluebeds.jpg" class="main-image">
-    <button onclick="showGallery('gallery2')">View Apartment</button>
-</div>
-
-<!-- Gallery for apartment 1 -->
-<div id="gallery1" class="gallery">
-    <img src="images/bath1.jpg">
-    <img src="images/kitchen2.jpg">
-    <img src="images/kitchen1.jpg">
-</div>
-
-<!-- Gallery for apartment 2 -->
-<div id="gallery2" class="gallery">
-    <img src="images/kitchen1.jpg">
-    <img src="images/kitchen1.jpg">
-    <img src="images/kitchen1.jpg">
-</div>
-
-<script>
-function showGallery(galleryId) {
-    let galleries = document.querySelectorAll('.gallery');
-
-    galleries.forEach(function(gallery) {
-        gallery.style.display = "none";
-    });
-
-    document.getElementById(galleryId).style.display = "block";
-}
-</script>
 
       
 </main>
