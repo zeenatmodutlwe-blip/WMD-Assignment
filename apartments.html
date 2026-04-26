@@ -52,28 +52,44 @@
 
 
 
-<div class="gallery">
-    <img src="images/kitchen1.jpg" class="main-image" alt="Apartment">
 
-    <br>
-    <button onclick="showImages()">View Apartment</button>
-
-    <div class="more-images" id="moreImages">
-        <img src="images/2bed.jpg" alt="">
-        <img src="images/kitchen2.jpg" alt="">
-        <img src="images/bluebeds.jpg" alt="">
-    </div>
+<!-- Apartment 1 -->
+<div class="apartment">
+    <img src="images/exterior1.jpg" class="main-image">
+    <button onclick="showGallery('gallery1')">View Apartment</button>
 </div>
 
-function showImages() {
-    let images = document.getElementById("moreImages");
+<!-- Apartment 2 -->
+<div class="apartment">
+    <img src="images/bluebeds.jpg" class="main-image">
+    <button onclick="showGallery('gallery2')">View Apartment</button>
+</div>
 
-    if(images.style.display === "block"){
-        images.style.display = "none";
-    } else {
-        images.style.display = "block";
-    }
+<!-- Gallery for apartment 1 -->
+<div id="gallery1" class="gallery">
+    <img src="images/bath1.jpg">
+    <img src="images/kitchen2.jpg">
+    <img src="images/kitchen1.jpg">
+</div>
+
+<!-- Gallery for apartment 2 -->
+<div id="gallery2" class="gallery">
+    <img src="images/kitchen1.jpg">
+    <img src="images/kitchen1.jpg">
+    <img src="images/kitchen1.jpg">
+</div>
+
+<script>
+function showGallery(galleryId) {
+    let galleries = document.querySelectorAll('.gallery');
+
+    galleries.forEach(function(gallery) {
+        gallery.style.display = "none";
+    });
+
+    document.getElementById(galleryId).style.display = "block";
 }
+</script>
 
       
 </main>
