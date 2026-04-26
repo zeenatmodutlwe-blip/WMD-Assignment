@@ -247,7 +247,7 @@ html, body {
     background: rgba(0,0,0,0.9);
 
     /* THIS centers everything */
-    display: flex;
+   
     justify-content: center;
     align-items: center;
     flex-direction: column;
