@@ -89,7 +89,7 @@ color:white;
 text-align:center;
 padding:5px;
 width:100%;
-position:fixed;   
+  
 }
 
 p {
@@ -187,7 +187,7 @@ main a[href^="mailto:"]{
     background-color: #222;
     color: white;
     padding: 5px 0px;
-   position:fixed;
+
    
 }
 html, body {
