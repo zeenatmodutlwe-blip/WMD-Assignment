@@ -231,41 +231,6 @@ html, body {
 
 
 
-.apartment {
-    text-align: center;
-    display: inline-block;
-    margin: 20px;
-}
-
-.main-image {
-    width: 250px;
-    height: auto;
-    border-radius: 10px;
-    display: block;
-}
-
-button {
-    margin-top: 10px;
-    padding: 10px 20px;
-    background: black;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.gallery {
-    display: none;
-    text-align: center;
-    margin-top: 20px;
-}
-
-.gallery img {
-    width: 180px;
-    margin: 10px;
-    border-radius: 10px;
-}
-
 
 
 .hero-text {
