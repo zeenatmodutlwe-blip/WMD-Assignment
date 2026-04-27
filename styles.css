@@ -464,7 +464,16 @@ input:checked ~ .details {
    
     font-size: 18px;
 }
-   
+
+
+
+
+#caption {
+    color: white;
+    font-size: 22px;
+    margin-top: 15px;
+    text-align: center;
+}
 
 
 
