@@ -97,22 +97,27 @@
 <div id="lightbox" class="lightbox">
     <span class="close" onclick="closeLightbox()">&times;</span>
     <span class="prev" onclick="changeImage(-1)">❮</span>
+
     <img id="lightboxImage">
-  <p id="caption"></p>
+    <p id="caption"></p>
+
     <span class="next" onclick="changeImage(1)">❯</span>
 
-   <button class="back-btn" onclick="closeLightbox()">
+    <button class="back-btn" onclick="closeLightbox()">
         Back to Apartment Page
     </button>
 </div>
-
 <script>
 let images = [
     
-     "images/kitchen1.jpg", title: "Kitchen",
-   "images/bluebed.jpg", title: "Bedroom",
-     "images/bath1.jpg", title: "Bathroom",
-     "images/kidbed.jpg", title: "Living Room"
+
+    { src: "images/kitchen1.jpg", title: "Kitchen" },
+    { src: "images/2bed.jpg", title: "Bedroom" },
+    { src: "images/kitchen2.jpg", title: "Modern Kitchen" },
+    { src: "images/bath1.jpg", title: "Bathroom" },
+    { src: "images/sittingroom3.jpg", title: "Living Room" },
+    { src: "images/bluebeds.jpg", title: "Master Bedroom" }
+
 
 ];
 
