@@ -89,6 +89,7 @@
     <span class="close" onclick="closeLightbox()">&times;</span>
     <span class="prev" onclick="changeImage(-1)">❮</span>
     <img id="lightboxImage">
+  <p id="caption"></p>
     <span class="next" onclick="changeImage(1)">❯</span>
 
    <button class="back-btn" onclick="closeLightbox()">
@@ -98,11 +99,12 @@
 
 <script>
 let images = [
-  
-    "images/bluebeds.jpg",
-    "images/bath1.jpg",
-    "images/exterior1.jpg",
-    "images/kitchen2.jpg"
+    
+    {src: "images/kitchen1.jpg", title: "Kitchen"},
+    {src: "images/bluebed.jpg", title: "Bedroom"},
+    {src: "images/bath1.jpg", title: "Bathroom"},
+    {src: "images/kidbed.jpg", title: "Living Room"}
+
 ];
 
 let currentIndex = 0;
@@ -112,6 +114,13 @@ function openLightbox(index) {
     document.getElementById("lightbox").style.display = "flex";
     document.getElementById("lightboxImage").src = images[currentIndex];
 }
+
+  
+function showImage() {
+    document.getElementById("lightboxImage").src = images[currentIndex].src;
+    document.getElementById("caption").innerText = images[currentIndex].title;
+}
+
 
 function closeLightbox() {
     document.getElementById("lightbox").style.display = "none";
