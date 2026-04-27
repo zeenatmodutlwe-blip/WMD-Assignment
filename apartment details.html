@@ -52,31 +52,70 @@
    
       <div class="col-12"></div>
 
-  <div class="image-container">
-     <div class="row">
-      <div class="image-grid">  
-   
+<div class="image-container">
+  <div class="row">
+    <div class="image-grid">
 
-  
-  <div class="apartment-box">
- <div class="image-row" style="object-fit:cover;">
-       <img src="images/kidbed.jpg" alt="1bed" width="600" height="400">
-    </div>
-        
-    <button class="view-btn" onclick="showDetails()">
-        View Apartment
-    </button>
+      <!-- Apartment 1 -->
+      <div class="apartment-box">
+        <div class="image-row">
+          <img src="images/kidbed.jpg" alt="1bed">
+        </div>
 
-    <div class="details" id="details">
-        <p><strong>Price:</strong> BWP 1,500 / month</p>
-        <p><strong>Location:</strong> Gaborone, Block 10</p>
-        <p><strong>Size:</strong> 1 bedroom</p>
+        <button class="view-btn" onclick="showDetails(this)">
+          View Apartment
+        </button>
+
+        <div class="details">
+          <p><strong>Price:</strong> BWP 1,500 / month</p>
+          <p><strong>Location:</strong> Gaborone, Block 10</p>
+          <p><strong>Size:</strong> 1 bedroom</p>
+        </div>
+      </div>
+
+
+      <!-- Apartment 2 -->
+      <div class="apartment-box">
+        <div class="image-row">
+          <img src="images/bluebeds.jpg" alt="2beds">
+        </div>
+
+        <button class="view-btn" onclick="showDetails(this)">
+          View Apartment
+        </button>
+
+        <div class="details">
+          <p><strong>Price:</strong> BWP 2,500 / month</p>
+          <p><strong>Location:</strong> Gaborone, Block 8</p>
+          <p><strong>Size:</strong> 2 bedrooms</p>
+        </div>
+      </div>
+
+
+      <!-- Apartment 3 -->
+      <div class="apartment-box">
+        <div class="image-row">
+          <img src="images/greenbed.jpg" alt="3beds">
+        </div>
+
+        <button class="view-btn" onclick="showDetails(this)">
+          View Apartment
+        </button>
+
+        <div class="details">
+          <p><strong>Price:</strong> BWP 3,500 / month</p>
+          <p><strong>Location:</strong> Mmopane, Block 1</p>
+          <p><strong>Size:</strong> 3 bedrooms</p>
+        </div>
+      </div>
+
     </div>
+  </div>
 </div>
 
-<script>
-function showDetails() {
-    let details = document.getElementById("details");
+
+      function showDetails(button) {
+    let details = button.nextElementSibling;
 
     if(details.style.display === "block"){
         details.style.display = "none";
@@ -84,69 +123,6 @@ function showDetails() {
         details.style.display = "block";
     }
 }
-</script>
-
-
-
-  <div class="apartment-box">
-  <div class="image-row">
-      <img src="images/bluebeds.jpg" alt="2beds" width="600" height="400" style="margin-left:10px;">
-    </div>
-        
-    <button class="view-btn" onclick="showDetails()">
-        View Apartment
-    </button>
-
-    <div class="details" id="details">
-        <p><strong>Price:</strong> BWP 2,500 / month</p>
-        <p><strong>Location:</strong> Gaborone, Block 8</p>
-        <p><strong>Size:</strong> 2 bedrooms/p>
-    </div>
-</div>
-
-<script>
-function showDetails() {
-    let details = document.getElementById("details");
-
-    if(details.style.display === "block"){
-        details.style.display = "none";
-    } else {
-        details.style.display = "block";
-    }
-}
-</script>
-
-
-
-  <div class="apartment-box">
-    <div class="image-row">
-       <img src="images/greenbed.jpg" alt="1big bed" width="600" height="400" style="margin-left:10px;">
-    </div>    
-    <button class="view-btn" onclick="showDetails()">
-        View Apartment
-    </button>
-
-    <div class="details" id="details">
-        <p><strong>Price:</strong> BWP 3,500 / month</p>
-        <p><strong>Location:</strong> Mmopane, Block 1</p>
-        <p><strong>Size:</strong> 3 bedrooms</p>
-    </div>
-</div>
-
-<script>
-function showDetails() {
-    let details = document.getElementById("details");
-
-    if(details.style.display === "block"){
-        details.style.display = "none";
-    } else {
-        details.style.display = "block";
-    }
-}
-</script>
-
-
-
        
        
 
