@@ -101,18 +101,15 @@
         Back to Apartment Page
     </button>
 </div>
-<script>
+
+    <script>
 let images = [
-    
-"images/kitchen1.jpg"
     { src: "images/kitchen1.jpg", title: "Kitchen" },
     { src: "images/2bed.jpg", title: "Bedroom" },
     { src: "images/kitchen2.jpg", title: "Modern Kitchen" },
     { src: "images/bath1.jpg", title: "Bathroom" },
     { src: "images/sittingroom3.jpg", title: "Living Room" },
     { src: "images/bluebeds.jpg", title: "Master Bedroom" }
-
-
 ];
 
 let currentIndex = 0;
@@ -120,15 +117,13 @@ let currentIndex = 0;
 function openLightbox(index) {
     currentIndex = index;
     document.getElementById("lightbox").style.display = "flex";
-    document.getElementById("lightboxImage").src = images[currentIndex].src;
+    showImage();
 }
 
-  
 function showImage() {
     document.getElementById("lightboxImage").src = images[currentIndex].src;
     document.getElementById("caption").innerText = images[currentIndex].title;
 }
-
 
 function closeLightbox() {
     document.getElementById("lightbox").style.display = "none";
@@ -145,10 +140,9 @@ function changeImage(step) {
         currentIndex = 0;
     }
 
-    document.getElementById("lightboxImage").src = images[currentIndex];
+    showImage();
 }
-</script>
-
+    </script>
 
     
 </main>
