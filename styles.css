@@ -171,26 +171,7 @@ main a[href^="mailto:"]{
     width: 100%;
 }
 
-.image-container img {
-    width: 100%;
-    overflow: visible;
-    display: block;
-   margin:0;
-  object-fit:cover;
-  height:400px;
-}
-.image-row {
-    display: flex;
-    gap: 10px;
-}
 
-.image-row img {
-    width: 100%;
-    height: 400px;          
-    object-fit: contain;
-   flex: 1;
-   
-}
 
 
 .footer {
