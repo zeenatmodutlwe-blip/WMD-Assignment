@@ -175,7 +175,7 @@ main a[href^="mailto:"]{
 }
 
 .image-row img {
-    width: 30%;
+    width: 100%;
     height: auto;          
     object-fit: contain;
    flex: 1;
