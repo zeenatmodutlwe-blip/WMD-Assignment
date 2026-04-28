@@ -401,6 +401,7 @@ input:checked ~ .details {
 .text {
     width: 50%;
     text-align: left;
+    margin-left:10px;
 }
 
 /* right side image */
