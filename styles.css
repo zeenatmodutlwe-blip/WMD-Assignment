@@ -156,6 +156,13 @@ main a[href^="mailto:"]{
   width:100%;
   
 }
+.image-grid img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+}
+
 .image-container {
     position: relative;
     width: 100%;
