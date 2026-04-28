@@ -400,6 +400,7 @@ input:checked ~ .details {
 /* left side text */
 .text {
     width: 50%;
+    text-align: left;
 }
 
 /* right side image */
